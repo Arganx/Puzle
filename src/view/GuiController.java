@@ -59,7 +59,7 @@ public class GuiController {
         {
             tab.add(Long.valueOf(fc.read()[i]));
         }
-        BufferedImage bi = ImageIO.read(new File("C:\\Users\\qwerty\\IdeaProjects\\Puzle2.0\\out\\production\\Puzle2.0\\assets\\Trybson.jpg"));
+        BufferedImage bi = ImageIO.read(new File("C:\\Users\\qwerty\\IdeaProjects\\Puzle2.0\\out\\production\\Puzle2.0\\assets\\zdjecie.png"));
         bi=fc.resizeImage(bi,800,600);
         BufferedImage part;
         Tile tile;
